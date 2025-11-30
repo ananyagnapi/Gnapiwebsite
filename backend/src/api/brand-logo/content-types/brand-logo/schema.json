@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "brand_logos",
+  "info": {
+    "singularName": "brand-logo",
+    "pluralName": "brand-logos",
+    "displayName": "BrandLogo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

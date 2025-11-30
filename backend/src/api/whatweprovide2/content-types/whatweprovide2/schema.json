@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "whatweprovide2s",
+  "info": {
+    "singularName": "whatweprovide2",
+    "pluralName": "whatweprovide2s",
+    "displayName": "whatweprovide2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

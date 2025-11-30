@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "howweworks",
+  "info": {
+    "singularName": "howwework",
+    "pluralName": "howweworks",
+    "displayName": "Howwework"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

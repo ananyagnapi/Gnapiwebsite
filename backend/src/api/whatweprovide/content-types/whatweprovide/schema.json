@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "whatweprovides",
+  "info": {
+    "singularName": "whatweprovide",
+    "pluralName": "whatweprovides",
+    "displayName": "whatweprovide"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
